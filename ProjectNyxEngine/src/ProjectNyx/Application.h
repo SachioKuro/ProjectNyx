@@ -26,7 +26,7 @@ namespace Nyx {
 		std::vector<VkPresentModeKHR> presentModes;
 	};
 
-	class NYX_API Application {
+	class Application {
 	public:
 		const uint32_t WINDOW_WIDTH = 800;
 		const uint32_t WINDOW_HEIGHT = 600;

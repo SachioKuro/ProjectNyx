@@ -1,0 +1,6 @@
+[submodule "ProjectNyxEngine\\vendor\\GLFW"]
+	path = ProjectNyxEngine\\vendor\\GLFW
+	url = https://github.com/SachioKuro/glfw.git
+[submodule "ProjectNyxEngine/ProjectNyxEngine\\vendor\\GLFW"]
+	path = ProjectNyxEngine/ProjectNyxEngine\\vendor\\GLFW
+	url = https://github.com/SachioKuro/glfw.git

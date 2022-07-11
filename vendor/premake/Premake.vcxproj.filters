@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{61705900-4DFC-870B-B6AA-880BA255880B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\ProjectNyxEngine">
+      <UniqueIdentifier>{BC7B596C-28DD-367A-B14A-7D2C1DAB6D39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\ProjectNyxEngine\vendor">
+      <UniqueIdentifier>{99066D4C-8516-191D-EECF-7D3BDAFE07B6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\ProjectNyxEngine\vendor\GLFW">
+      <UniqueIdentifier>{78C9E07F-E4AC-EFBF-EDAF-1DFC5912B610}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\ProjectNyxSandbox">
+      <UniqueIdentifier>{F5F1600F-E180-EAD8-8A9F-FED3760DFB7E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\ProjectNyxEngine\premake5.lua">
+      <Filter>..\ProjectNyxEngine</Filter>
+    </None>
+    <None Include="..\..\ProjectNyxEngine\vendor\GLFW\premake5.lua">
+      <Filter>..\ProjectNyxEngine\vendor\GLFW</Filter>
+    </None>
+    <None Include="..\..\ProjectNyxSandbox\premake5.lua">
+      <Filter>..\ProjectNyxSandbox</Filter>
+    </None>
+    <None Include="..\..\premake5.lua">
+      <Filter>..</Filter>
+    </None>
+    <None Include="premake5.lua" />
+  </ItemGroup>
+</Project>
