@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\event">
+      <UniqueIdentifier>{1ab18c7e-e57e-4303-9a05-b21175425d45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\core">
+      <UniqueIdentifier>{ab9ee6b0-4b2f-4548-85af-a091fa639640}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\event">
+      <UniqueIdentifier>{e6f2e392-97d0-49a5-8492-a74063adb391}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\event\keyboard">
+      <UniqueIdentifier>{014b5065-d2a6-463b-8799-a25b2b92d6ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\event\mouse">
+      <UniqueIdentifier>{710c126a-1c64-4a9f-a395-2dc46c0e9e3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\event\system">
+      <UniqueIdentifier>{c4d91ecc-01a8-4c9e-a745-02b0c85b5f62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\service">
+      <UniqueIdentifier>{a9ac1f22-b352-404b-8b35-6ce0387e49e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\math">
+      <UniqueIdentifier>{aac94c7c-b7df-443c-8f69-b039e6ec187d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core">
+      <UniqueIdentifier>{375d03bb-69ea-4b33-80f8-36a42b9d2344}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\event\keyboard">
+      <UniqueIdentifier>{9074968b-b424-4d95-afbf-8ebdfc444fff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\event\mouse">
+      <UniqueIdentifier>{d1710b52-7cfb-451c-8ee5-5bc488eae3b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\event\system">
+      <UniqueIdentifier>{10f1066b-13c5-4e70-9431-deb712490c4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\math">
+      <UniqueIdentifier>{adbd01d6-2b02-4da2-89ee-67fe902af603}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\service">
+      <UniqueIdentifier>{80b4c6ce-3157-4ef2-a760-1404d631bde0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ecs">
+      <UniqueIdentifier>{313f62ab-7422-405f-aea8-717bc290dc48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ecs">
+      <UniqueIdentifier>{65903b21-89ee-442f-87fa-b4365097548f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ecs\components">
+      <UniqueIdentifier>{b3b020f1-090c-4f28-bc9b-f64b64cc8e99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ecs\systems">
+      <UniqueIdentifier>{820bd1b6-c667-4793-8fef-6960ec22dc81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\assets">
+      <UniqueIdentifier>{3b30c4b1-6b9c-4308-9dfc-e9b59857207a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\pch.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\Bit.hpp">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\event\Event.hpp">
+      <Filter>Header Files\event</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\Assert.hpp">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\Extent.hpp">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\Inputs.hpp">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\TypeId.hpp">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\Version.hpp">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\event\EventDispatcher.hpp">
+      <Filter>Header Files\event</Filter>
+    </ClInclude>
+    <ClInclude Include="src\event\keyboard\KeyDownEvent.hpp">
+      <Filter>Header Files\event\keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="src\event\keyboard\KeyEvent.hpp">
+      <Filter>Header Files\event\keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="src\event\keyboard\KeyUpEvent.hpp">
+      <Filter>Header Files\event\keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="src\event\mouse\MouseDownEvent.hpp">
+      <Filter>Header Files\event\mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="src\event\mouse\MouseEvent.hpp">
+      <Filter>Header Files\event\mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="src\event\mouse\MouseMotionEvent.hpp">
+      <Filter>Header Files\event\mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="src\event\mouse\MouseUpEvent.hpp">
+      <Filter>Header Files\event\mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="src\event\mouse\MouseWheelEvent.hpp">
+      <Filter>Header Files\event\mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="src\event\system\SystemEvent.hpp">
+      <Filter>Header Files\event\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\event\system\SystemQuitEvent.hpp">
+      <Filter>Header Files\event\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\service\EventDispatcherService.hpp">
+      <Filter>Header Files\service</Filter>
+    </ClInclude>
+    <ClInclude Include="src\service\Locator.hpp">
+      <Filter>Header Files\service</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\Vec2.hpp">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\Time.hpp">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\UUID.hpp">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Application.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Entry.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\Vec3.hpp">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\Logging.hpp">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ecs\ECS.hpp">
+      <Filter>Header Files\ecs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ecs\Entity.hpp">
+      <Filter>Header Files\ecs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ecs\Registry.hpp">
+      <Filter>Header Files\ecs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ecs\System.hpp">
+      <Filter>Header Files\ecs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ecs\systems\TestSystem.hpp">
+      <Filter>Header Files\ecs\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ecs\Scene.hpp">
+      <Filter>Header Files\ecs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\Memory.hpp">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\assets\Animation.hpp">
+      <Filter>Header Files\assets</Filter>
+    </ClInclude>
+    <ClInclude Include="src\assets\Asset.hpp">
+      <Filter>Header Files\assets</Filter>
+    </ClInclude>
+    <ClInclude Include="src\assets\Audio.hpp">
+      <Filter>Header Files\assets</Filter>
+    </ClInclude>
+    <ClInclude Include="src\assets\Font.hpp">
+      <Filter>Header Files\assets</Filter>
+    </ClInclude>
+    <ClInclude Include="src\assets\Registry.hpp">
+      <Filter>Header Files\assets</Filter>
+    </ClInclude>
+    <ClInclude Include="src\assets\Texture.hpp">
+      <Filter>Header Files\assets</Filter>
+    </ClInclude>
+    <ClInclude Include="src\assets\Tilemap.hpp">
+      <Filter>Header Files\assets</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ecs\components\Common.hpp">
+      <Filter>Header Files\ecs\components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ecs\components\Graphics2D.hpp">
+      <Filter>Header Files\ecs\components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ecs\systems\SpriteRendererSystem.hpp">
+      <Filter>Header Files\ecs\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ecs\components\UI.hpp">
+      <Filter>Header Files\ecs\components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ecs\systems\TextRendererSystem.hpp">
+      <Filter>Header Files\ecs\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ecs\systems\SpriteAnimationSystem.hpp">
+      <Filter>Header Files\ecs\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ecs\systems\TilemapRendererSystem.hpp">
+      <Filter>Header Files\ecs\systems</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\event\Event.cpp">
+      <Filter>Source Files\event</Filter>
+    </ClCompile>
+    <ClCompile Include="src\event\EventDispatcher.cpp">
+      <Filter>Source Files\event</Filter>
+    </ClCompile>
+    <ClCompile Include="src\service\Locator.cpp">
+      <Filter>Source Files\service</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\Inputs.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\UUID.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
